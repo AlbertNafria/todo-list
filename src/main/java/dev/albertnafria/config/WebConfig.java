@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 @ComponentScan(basePackages = "dev.albertnafria")
 public class WebConfig {
     // Constants
-    public static final String RESOLVER_PREFIX = "/WEB-INF/view";
+    public static final String RESOLVER_PREFIX = "/WEB-INF/view/";
     public static final String RESOLVER_SUFFIX = ".jsp";
 
     // Bean methods

@@ -27,14 +27,14 @@ public class DemoController {
 
     // http://localhost:8080/todo-list/hello
     @ResponseBody
-    @GetMapping("/hello")
+    @GetMapping(value="/hello")
     public String hello() {
         return "hello";
     }
 
     // http://localhost:8080/todo-list/welcome
     // http://localhost:8080/todo-list/welcome?user=Albert
-    @GetMapping("welcome")
+    @GetMapping(value="welcome")
     public String welcome(@RequestParam String user, @RequestParam int age, Model model) {
         model.addAttribute("helloMessage", demoService.getHelloMessage(user));
         model.addAttribute("age", age);

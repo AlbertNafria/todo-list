@@ -11,8 +11,8 @@
     <title>Todo Items</title>
 </head>
 <body>
-<div align="center">
-    <table border="1" cellpadding="5">
+<div text-align="center">
+    <table text-border="1" text-cellpadding="5">
         <caption><h2>Todo Items</h2></caption>
         <tr>
             <th>Title</th>
